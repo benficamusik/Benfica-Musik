@@ -1,0 +1,24 @@
+#centroalbum{
+    width: 750px;
+	margin-top: 105px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 90px;
+    
+	
+}
+#centroalbum article{
+    margin: 5px 20px;
+    width: 300px;
+	height: 300px;
+	box-shadow: 5px 5px 10px #ddd;
+    display: inline-block;
+    
+}
+#centroalbum article figure{
+    margin: 0px;
+}
+#centroalbum article figure figcaption{
+    position: relative;
+    top:0px;
+}
