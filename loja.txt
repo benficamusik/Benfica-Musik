@@ -1,0 +1,5 @@
+ Valor que entrou 14.805
+Valor que saiu 8150
+Valor que restou 6655
+Valor da tia Nene 2500
+Valor da Yuri sousa 2055
