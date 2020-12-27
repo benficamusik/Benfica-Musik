@@ -1,0 +1,74 @@
+#interface #cabecalho{
+	background-image:linear-gradient(to top right,tomato,purple,tomato);
+	background-blend-mode: lighten;
+	background-repeat: no-repeat;
+	background-size: 100% 500px;
+	width: 100%;
+	position: fixed;
+	top: -1px;
+	margin-left: -8px;
+	height: 100px;
+}
+#cabecalho #logo img{
+	margin-top: 4.2px;
+}
+
+#interface #redes ul{
+	display: block;
+	list-style: none;
+}
+#interface #redes ul li{
+	display: inline-block;
+	color: #fff;
+}
+#centro{
+	margin-top: 105px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 120px;
+	
+}
+#centro article{
+    margin: 3px 1px;
+    flex: 200px;
+	height: 200px;
+	box-shadow: 5px 5px 10px #ddd;
+    
+}
+#centro article figure{
+    margin: 0px;
+}
+#centro article figure figcaption{
+    position: relative;
+    top:0px;
+}
+.menuL{
+	background-image:linear-gradient(to top ,purple,tomato,purple);
+	float: left;
+	height: 100%;
+	position: fixed;
+	width: 100px;
+	margin:-6px 0px 0px -8px;
+}
+.menuL ul{
+	list-style: none;
+	display: block;
+	
+	
+}
+.menuL ul li{
+	border: 1px solid #fff;
+	color:#fff;
+	text-align: center;
+	margin: 10px 0px 0px -40px;
+	border-radius: 8px 20px;
+
+}
+.menuL ul a{
+		text-decoration: none;
+}
+#redes{
+    position: absolute;
+    top:0px;
+    left:1000px;
+}
